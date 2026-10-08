@@ -29,6 +29,10 @@ The relative asset base in `vite.config.ts` supports both `https://USERNAME.gith
 
 If your default branch is not `main`, update the branch in `.github/workflows/deploy.yml`.
 
+Before pushing updates, run `npm run build`. The development preview does not run
+TypeScript's checks, but deployment does. If a build fails, GitHub Pages continues
+serving the last successful deployment; view the failed run in **Actions** for the error.
+
 ## Update the content
 
 - `src/App.tsx`: introduction, selected work, experience, education, skills, email, and LinkedIn.
@@ -37,3 +41,6 @@ If your default branch is not `main`, update the branch in `.github/workflows/de
 - `public/favicon.svg`: browser icon.
 
 Selected work summarizes contributions described in the resume, rather than linking to private customer projects. The original resume, phone number, and street address are intentionally not published.
+
+The selected-work section and its `projects` data are currently commented out.
+To restore it, uncomment both and restore the navigation links to `#work`.

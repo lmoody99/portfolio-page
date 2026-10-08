@@ -1,6 +1,7 @@
 const email = 'emoody110@gmail.com'
 const linkedIn = 'https://www.linkedin.com/in/elizabethamoody/'
 
+/*
 const projects = [
   {
     category: 'Cloud architecture',
@@ -24,6 +25,7 @@ const projects = [
     tags: ['Multiagent AI', 'Workflow automation'],
   },
 ]
+*/
 
 const experience = [
   {
@@ -98,7 +100,6 @@ export default function App() {
           liza moody<span>.</span>
         </a>
         <nav aria-label="Main navigation">
-          <a href="#work">Work</a>
           <a href="#experience">Experience</a>
           <a href="#about">About</a>
           <a className="nav-contact" href="#contact">Let&apos;s talk <Arrow diagonal /></a>
@@ -117,7 +118,7 @@ export default function App() {
               the architecture, the people, and the business behind them.
             </p>
             <div className="hero-actions">
-              <a className="button" href="#work">Explore my work <Arrow /></a>
+              <a className="button" href="#experience">Explore my experience <Arrow /></a>
               <a className="text-link" href={linkedIn} target="_blank" rel="noreferrer">
                 LinkedIn <Arrow diagonal /><span className="sr-only"> (opens in a new tab)</span>
               </a>
@@ -206,7 +207,7 @@ export default function App() {
 
         <section className="contact-section" id="contact" aria-labelledby="contact-title">
           <div>
-            <p className="eyebrow">04 / Get in touch</p>
+            <p className="eyebrow">03 / Get in touch</p>
             <h2 id="contact-title">Good work starts<br />with a conversation.</h2>
             <p>Have an interesting opportunity or a problem worth solving? Let&apos;s connect.</p>
           </div>
