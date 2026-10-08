@@ -110,7 +110,8 @@ export default function App() {
           <div className="hero-copy">
             <p className="eyebrow"><span className="status-dot" /> Cloud &amp; solutions engineering</p>
             <h1 id="hero-title">Liza Moody<span>.</span></h1>
-            <p className="hero-headline">Technical depth.<br /><span>Business perspective.</span></p>
+          {/*}  <p className="hero-headline">Technical depth.<br /><span>Business perspective.</span></p>
+          */}
             <p className="hero-description">
               I turn complex requirements into practical cloud solutions, connecting
               the architecture, the people, and the business behind them.
@@ -128,10 +129,11 @@ export default function App() {
               <div><dt>Based in</dt><dd>Austin, Texas</dd></div>
               <div><dt>Most recently</dt><dd>Staff Cloud Engineer<span>Oracle &middot; Financial Services</span></dd></div>
               <div><dt>My focus</dt><dd>Cloud architecture &amp; applied AI</dd></div>
+              <div><dt>Education</dt><dd>University of Southern California<span>BS Computer Science & Business Administration</span></dd></div>
             </dl>
           </aside>
         </section>
-
+{/*
         <section className="section" id="work" aria-labelledby="work-title">
           <div className="section-heading">
             <div><p className="eyebrow">01 / Selected work</p><h2 id="work-title">Complex challenges. Practical solutions.</h2></div>
@@ -150,10 +152,10 @@ export default function App() {
             ))}
           </div>
         </section>
-
+*/}
         <section className="section" id="experience" aria-labelledby="experience-title">
           <div className="section-heading">
-            <div><p className="eyebrow">02 / Experience</p><h2 id="experience-title">Built on real-world experience.</h2></div>
+            <div><p className="eyebrow">01 / Experience</p><h2 id="experience-title">Built on real-world experience.</h2></div>
             <p>Oracle <span className="separator">/</span> Austin, TX</p>
           </div>
           <div className="experience-list">
@@ -173,7 +175,7 @@ export default function App() {
 
         <section className="section about-section" id="about" aria-labelledby="about-title">
           <div className="about-copy">
-            <p className="eyebrow">03 / A little about me</p>
+            <p className="eyebrow">02 / A little about me</p>
             <h2 id="about-title">At the intersection of<br />business and technology.</h2>
             <p>
               My background combines computer science and business administration.
